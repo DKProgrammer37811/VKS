@@ -1,0 +1,578 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>VKS Auto Japan</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="shortcut icon" type="image/x-icon" href="assets/images/icon (1).jpg">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+		<!-- ========================= CSS here ========================= -->
+		<link rel="stylesheet" href="assets/css/bootstrap-5.0.0-beta1.min.css">
+        <link rel="stylesheet" href="assets/css/LineIcons.2.0.css">
+		<link rel="stylesheet" href="assets/css/animate.css">
+		<link rel="stylesheet" href="assets/css/tiny-slider.css">
+		<link rel="stylesheet" href="assets/css/glightbox.min.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+        <style>
+     
+     .flags-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Add this to create spacing between columns */
+}
+
+.flags-container .box-item {
+  flex: 1 1 calc(50% - 20px); /* Adjust the width to account for the gap */
+  margin-bottom: 5px; /* Add margin to create space between rows */
+}
+    /* Styles specific to box-item */
+    .box-item {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      border-radius: 20px;
+      background-color: #f7f7f7;
+      margin-bottom: 20px;
+      width: 48%; /* Adjust width for two items per row */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+    }
+
+    /* Flag image styling */
+    .box-item img {
+      width: 35px;
+      margin-right: 10px;
+    }
+
+    /* Hover effect */
+    .box-item:hover {
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Text inside .box-item */
+    .box-item h4 {
+      margin: 0;
+      font-size: 16px;
+    }
+
+    .box-item a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    /* Responsive design for smaller screens */
+    @media (max-width: 768px) {
+      .box-item {
+        width: 100%; /* Stack the boxes on smaller screens */
+      }
+    }
+          </style>
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- ========================= preloader start ========================= -->
+        <div class="preloader">
+            <div class="loader">
+                <div class="spinner">
+                    <div class="spinner-container">
+                        <div class="spinner-rotator">
+                            <div class="spinner-left">
+                                <div class="spinner-circle"></div>
+                            </div>
+                            <div class="spinner-right">
+                                <div class="spinner-circle"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- preloader end -->
+
+        <!-- ========================= header start ========================= -->
+        <header class="header navbar-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="assets/images/icon (1).jpg" alt="Logo">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a class="page-scroll menu active" href="javascript:void(0)" >Home</a>
+                                       
+                                    </li>
+                                    
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="about.html">About</a>
+                                    </li>
+                                  
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#services">Services</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="contact.html">Contact</a>
+                                    </li>
+                                                               
+                            </div> <!-- navbar collapse -->
+                        </nav> <!-- navbar -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        
+        </header>
+        <!-- ========================= header end ========================= -->
+
+        <!-- ========================= hero-section start ========================= -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-5 col-lg-6">
+                        <div class="hero-content-wrapper">
+                            <h2 class="mb-25 wow fadeInDown" data-wow-delay=".2s">Your Trusted Partner</h2>
+                            <h1 class="mb-25 wow fadeInDown" data-wow-delay=".2s">Japanese Vehicle & Machinery Exports</h1>
+                            <p class="mb-35 wow fadeInLeft" data-wow-delay=".4s">We export high-quality Japanese vehicles, machinery, and auto parts globally, ensuring reliable shipping to the UAE, Saudi Arabia, Australia, and more</p>
+                            <a href="contact.html" class="theme-btn">Contact us</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-6">
+                        <div class="hero-img">
+                            <div class="d-inline-block hero-img-right">
+                                <img src="assets/images/2.jpg" alt="" class="image wow fadeInRight" data-wow-delay=".5s">
+                                <img src="assets/img/hero/dots.shape.svg" alt="" class="dot-shape">
+                                <div class="video-btn">
+                                    <a href="" class="glightbox" target="_blank"><i class="lni lni-play"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= hero-section end ========================= -->
+
+      
+        <!-- ========================= feature-section start ========================= -->
+        <section class="feature-section pt-130" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-7 col-md-9 mx-auto">
+                        <div class="section-title text-center mb-55">
+                            <span class="wow fadeInDown" data-wow-delay=".2s" >Feature</span>
+                            <h2 class="wow fadeInUp" data-wow-delay=".4s">Why Chose Us?</h2>
+                            <p class="wow fadeInUp" data-wow-delay=".6s">We specialize in exporting a diverse range of high-quality products globally</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="feature-box box-style">
+                            <div class="feature-icon box-icon-style">
+                                <i class="lni lni-car"></i>
+                            </div>
+                            <div class="box-content-style feature-content">
+                                <h4>Vehicles</h4>
+                                <p>We specialize in exporting top-quality vehicles from Japan to various countries worldwide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="feature-box box-style">
+                            <div class="feature-icon box-icon-style">
+                                <i class="lni lni-cog"></i>
+                            </div>
+                            <div class="box-content-style feature-content">
+                                <h4>Auto Parts</h4>
+                                <p>We provide a wide range of authentic auto parts from Japan, including engines, brakes, and suspensions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="feature-box box-style">
+                            <div class="feature-icon box-icon-style">
+                                <i class="lni lni-construction"></i>
+                            </div>
+                            <div class="box-content-style feature-content">
+                                <h4>Machinery</h4>
+                                <p>We export top-quality industrial machinery from Japan, ensuring reliable and timely delivery</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="feature-box box-style">
+                            <div class="feature-icon box-icon-style">
+                                <i class="lni lni-leaf"></i>
+                            </div>
+                            <div class="box-content-style feature-content">
+                                <h4>Agricultural Equipment</h4>
+                                <p>We provide top-tier agricultural equipment, ensuring efficient&reliable solutions for farming operations</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="feature-box box-style">
+                            <div class="feature-icon box-icon-style">
+                                <i class="fas fa-battery-full"></i> <!-- Full Battery -->
+                            </div>
+                            <div class="box-content-style feature-content">
+                                <h4>Batteries</h4>
+                                <p>We export high-quality batteries from Japan, offering reliable power solutions for various vehicles&applications</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= feature-section end ========================= -->
+
+        <!--========================= about-section start========================= -->
+        <section id="about" class="pt-100">
+            <div class="about-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="about-img-wrapper">
+                                <div class="about-img position-relative d-inline-block wow fadeInLeft" data-wow-delay=".3s">
+                                    <img src="assets/images/nwcountries.png" alt="" >
+
+                                    <div class="about-experience">
+                                        <h3>16 Year Of Experience</h3>
+                                        <p>We have experience exporting cars, auto parts, machinery, and agricultural equipment from Japan.                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="about-content-wrapper">
+                                <div class="section-title">
+                                    <span class="wow fadeInUp" data-wow-delay=".2s">International Network</span>
+                                    <h2 class="mb-40 wow fadeInRight" data-wow-delay=".4s">Worldwide Shipping & Locations
+                                    </h2>
+                                </div>
+                                <div class="about-content">
+                                    <p class="mb-45 wow fadeInUp" data-wow-delay=".6s">We ship to a wide range of international destinations, ensuring timely global deliveries.
+
+                                    </p>
+                                        <div class="flags-container">
+                                            <div class="box-item">
+                                              <img src="assets/images/uae.jpg" alt="UAE Flag">
+                                              <h4><a href="#">United Arab Emirates</a></h4>
+                                            </div>
+                                          
+                                            <div class="box-item">
+                                              <img src="assets/images/sar.jpg" alt="Saudi Arabia Flag">
+                                              <h4><a href="#">Saudi Arabia</a></h4>
+                                            </div>
+                                          
+                                            <div class="box-item">
+                                              <img src="assets/images/aus.png" alt="Australia Flag">
+                                              <h4><a href="#">Australia</a></h4>
+                                            </div>
+                                          
+                                            <div class="box-item">
+                                              <img src="assets/images/new.jpg" alt="New Zealand Flag">
+                                              <h4><a href="#">New Zealand</a></h4>
+                                            </div>
+                                          
+                                            <div class="box-item">
+                                              <img src="assets/images/mal.png" alt="Maldives Flag">
+                                              <h4><a href="#">Maldives</a></h4>
+                                            </div>
+                                          
+                                            <div class="box-item">
+                                              <img src="assets/images/pakistan.jpg" alt="Pakistan Flag">
+                                              <h4><a href="#">Pakistan</a></h4>
+                                            </div>
+                                          
+                                            <div class="box-item">
+                                              <img src="assets/images/russia.png" alt="Russia Flag">
+                                              <h4><a href="#">Russia</a></h4>
+                                            </div>
+                                          
+                                            <div class="box-item">
+                                              <img src="assets/images/uk.png" alt="UK Flag">
+                                              <h4><a href="#">United Kingdom</a></h4>
+                                            </div>
+                                          </div><br>
+                                          <p class="mb-45 wow fadeInUp" data-wow-delay=".6s">For more information or to arrange your shipment, please contact us for personalized assistance.</p>
+                                          <a href="contact.html" class="theme-btn">Contact us</a>
+
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--========================= about-section end========================= -->
+  <!-- ========================= client-logo-section start ========================= -->
+  <section class="client-logo-section pt-100">
+    <div class="container">
+        <div class="col-xl-6 col-lg-7 col-md-9 mx-auto">
+            <div class="section-title text-center mb-55">
+                <span class="wow fadeInDown" data-wow-delay=".2s">Brands We Associate With</span>
+            </div>
+        </div>
+        <div class="client-logo-wrapper">
+            
+            <div class="client-logo-carousel d-flex align-items-center justify-content-between">
+                <div class="client-logo">
+                    <img src="assets/svg/honda-svgrepo-com.svg" style="width:40%">
+                </div>
+                <div class="client-logo">
+                    <img src="assets/svg/fuso.svg" alt="" style="width:35%">
+                </div>
+                <div class="client-logo">
+                    <img src="assets/svg/nissan.svg" alt="" style="width:35%">
+                </div>
+                <div class="client-logo">
+                    <img src="assets/svg/subaru.svg" alt="" style="width:35%">
+                </div>
+                <div class="client-logo">
+                    <img src="assets/svg/Suzuki.svg" alt="" style="width:25%">
+                </div>
+                <div class="client-logo">
+                    <img src="assets/svg/toyota.svg" alt="" style="width:35%">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ========================= client-logo-section end ========================= -->
+<br>
+        <!-- ========================= contact-section start ========================= -->
+        <section id="contact" class="contact-section cta-bg img-bg pt-110 pb-100" style="background-image: url('assets/images/banner.jpg');">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-5 col-lg-7">
+                        <div class="section-title mb-60">
+                            <span class="text-white wow fadeInDown" data-wow-delay=".2s">Contact</span>
+                            <h2 class="text-white wow fadeInUp" data-wow-delay=".4s">Do you have any project Right now?</h2>
+                            <p class="text-white wow fadeInUp" data-wow-delay=".6s">Looking for a reliable way to import products from Japan?
+                                Need a reliable agent in Japan to procure from?
+                                We are here to help!</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-5">
+                        <div class="contact-btn text-start text-lg-end">
+                            <a href="contact.html" class="theme-btn">Contact Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= contact-section end ========================= -->
+
+
+        <!-- ========================= service-section start ========================= -->
+        <section id="service" class="service-section pt-130 pb-80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-7 col-md-9 mx-auto">
+                        <div class="section-title text-center mb-55">
+                            <span class="wow fadeInDown" data-wow-delay=".2s">Journey</span>
+                            <h2 class="wow fadeInUp" data-wow-delay=".4s">Our Workflow</h2>
+                            <p class="wow fadeInUp" data-wow-delay=".6s">This outlines the steps we take to ensure the successful completion of our projects and achieve our objectives</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-box box-style">
+                            <div class="service-icon box-icon-style">
+                                <i class="fas fa-calendar-alt"></i>                            </div>
+                            <div class="box-content-style service-content">
+                                <h4>Schedule</h4>
+                                <p>Set up a meeting or let us know your availability</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-box box-style">
+                            <div class="service-icon box-icon-style">
+                                <i class="fas fa-folder-open"></i>
+                                                        </div>
+                            <div class="box-content-style service-content">
+                                <h4>Gather</h4>
+                                <p>Let our support staff gather needed requirements</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-box box-style">
+                            <div class="service-icon box-icon-style">
+                                <i class="fas fa-comment-dots"></i>
+                            </div>
+                            <div class="box-content-style service-content">
+                                <h4>Quote</h4>
+                                <p>We will provide a quote in 2 days based on stock availability and shipment ETA
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-box box-style">
+                            <div class="service-icon box-icon-style">
+                                <i class="fas fa-gavel"></i>
+                            </div>
+                            <div class="box-content-style service-content">
+                                <h4>Auction</h4>
+                                <p>We can auction for specific items, but it might cause a delay</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-box box-style">
+                            <div class="service-icon box-icon-style">
+                                <i class="fas fa-box"></i>
+                            </div>
+                            <div class="box-content-style service-content">
+                                <h4>Package</h4>
+                                <p>Package all items in a standard container for safe transport.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-box box-style">
+                            <div class="service-icon box-icon-style">
+                                <i class="fas fa-truck"></i>
+                            </div>
+                            <div class="box-content-style service-content">
+                                <h4>Track</h4>
+                                <p>We will provide you with tracking info and update you till you receive your shipment</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= service-section end ========================= -->
+       
+        <!-- ========================= footer start ========================= -->
+        <footer class="footer pt-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="footer-widget mb-60 wow fadeInLeft" data-wow-delay=".2s">
+                            <a href="index.html" class="logo mb-30"><img src="assets/images/icon (1).jpg" alt="logo"></a>
+                            <p class="mb-30 footer-desc">We export high-quality Japanese vehicles, machinery, and auto parts globally, ensuring reliable shipping to the UAE, Saudi Arabia, Australia, and more
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6">
+                        <div class="footer-widget mb-60 wow fadeInUp" data-wow-delay=".4s">
+                            <h4>Quick Link</h4>
+                            <ul class="footer-links">
+                                <li>
+                                    <a href="javascript:void(0)">Home</a>
+                                </li>
+                                <li>
+                                    <a href="about.html">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="#services">Workflow</a>
+                                </li> 
+                                <li>
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <div class="footer-widget mb-60 wow fadeInUp" data-wow-delay=".6s">
+                            <h4>Service</h4>
+                            <ul class="footer-links">
+                                <li>
+                                    <a>Vehicles</a>
+                                </li>
+                                <li>
+                                    <a>Auto Parts</a>
+                                </li>
+                                <li>
+                                    <a >Machinery</a>
+                                </li>
+                                <li>
+                                    <a>Batteries</a>
+                                </li> 
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6">
+                        <div class="footer-widget mb-60 wow fadeInRight" data-wow-delay=".8s">
+                            <h4>Contact</h4>
+                            <ul class="footer-contact">
+                                <li>
+                                    <p>+81 90-4420-8581</p>
+                                </li>
+                                <li>
+                                    <p>vksautojapan@yahoo.com</p>
+                                </li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="copyright-area">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="footer-social-links">
+                                <ul class="d-flex">
+                                    <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-twitter-filled"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a></li>
+                                    <li><a href="javascript:void(0)"><i class="lni lni-instagram-filled"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="wow fadeInUp" data-wow-delay=".3s">Copyright © 2024 VKS Auto Japan | All rights reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- ========================= footer end ========================= -->
+
+        <!-- ========================= scroll-top ========================= -->
+        <a href="#" class="scroll-top">
+            <i class="lni lni-arrow-up"></i>
+        </a>
+        
+		<!-- ========================= JS here ========================= -->
+		<script src="assets/js/bootstrap.bundle-5.0.0-beta1.min.js"></script>
+		<script src="assets/js/contact-form.js"></script>
+        <script src="assets/js/count-up.min.js"></script>
+        <script src="assets/js/tiny-slider.js"></script>
+        <script src="assets/js/isotope.min.js"></script>
+        <script src="assets/js/glightbox.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/imagesloaded.min.js"></script>
+		<script src="assets/js/main.js"></script>
+    </body>
+</html>
